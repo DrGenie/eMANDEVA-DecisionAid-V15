@@ -20,7 +20,7 @@
    paste its URL here. This is the only value you need to change in the
    frontend. It must end with /api/emandeval-chat.
    ---------------------------------------------------------------------- */
-const CHATBOT_WORKER_URL = "https://YOUR-WORKER-SUBDOMAIN.workers.dev/api/emandeval-chat";
+const CHATBOT_WORKER_URL = "https://emandeval-chat.drgenie.workers.dev/api/emandeval-chat";
 
 /* Session safety limit: keeps usage inside free tier limits. */
 const ASSISTANT_SESSION_LIMIT = 20;
